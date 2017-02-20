@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/rinnaris/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/Users/rinnaris/Desktop/Lab6/WifiDirectHandler/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_09149297602e74cc31cff7a6f4bc30088c00127a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rinnaris/Desktop/Lab6/WifiDirectHandler/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2794b70667785d3f45cd37ee68137eb109009775">
+        <dex dex="/Users/rinnaris/Desktop/Lab6/WifiDirectHandler/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e76453d148a7e05c3f8e65ccd4a7d20e1f597030/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rinnaris/Desktop/Lab6/WifiDirectHandler/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/Users/rinnaris/Desktop/Lab6/WifiDirectHandler/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_cd2f272858a91ac08a31547deda571225aee23aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rinnaris/Desktop/Lab6/WifiDirectHandler/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/rinnaris/Desktop/Lab6/WifiDirectHandler/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_36f789a05a72cc493a324581a1ceb91e3863bfc9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rinnaris/Desktop/Lab6/WifiDirectHandler/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/Users/rinnaris/Desktop/Lab6/WifiDirectHandler/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_8a18f39f756526933019c7f527e6c34bd920f316/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rinnaris/Desktop/Lab6/WifiDirectHandler/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/Users/rinnaris/Desktop/Lab6/WifiDirectHandler/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_8969c73aed4a4bbcacbd9dddf536763f9dfe687c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rinnaris/Desktop/Lab6/WifiDirectHandler/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/Users/rinnaris/Desktop/Lab6/WifiDirectHandler/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.1_bd65d492aad79d4cbf201f24807c7b3ea17492d3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rinnaris/Desktop/Lab6/WifiDirectHandler/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/Users/rinnaris/Desktop/Lab6/WifiDirectHandler/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_af566ab4485465348a44b5a4e16f048212e63d94/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rinnaris/Desktop/Lab6/WifiDirectHandler/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/Users/rinnaris/Desktop/Lab6/WifiDirectHandler/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.1_a7a5a134a59f496bd81cf42b72e0a6fa23bca84c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rinnaris/Desktop/Lab6/WifiDirectHandler/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/Users/rinnaris/Desktop/Lab6/WifiDirectHandler/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_c45f8d1ed11879a7f14875175ebed54199827f3e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rinnaris/Desktop/Lab6/WifiDirectHandler/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/Users/rinnaris/Desktop/Lab6/WifiDirectHandler/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_d3c4da3264762871488793fff1a6c7564950ee49/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rinnaris/Desktop/Lab6/WifiDirectHandler/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a02a2313d422f0b65e5ff79c9b5b34f03afb9fc">
+        <dex dex="/Users/rinnaris/Desktop/Lab6/WifiDirectHandler/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1012473ec523cfd1c5e6a9b514a8ee6241515b9b/classes.dex" />
+    </item>
+
+</items>
