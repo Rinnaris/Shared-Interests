@@ -6,15 +6,21 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+
     private String profile;
     public TextView text;
+
     private WifiDirectHandler handler;
+
     private Button button;
     private Button button2;
     private Button button3;
+
+    private EditText profileText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,9 +63,10 @@ public class MainActivity extends AppCompatActivity {
 
     private String createProfile() {
         String out = "";
+        profileText = (EditText) findViewById(R.id.profileText);
         //TODO add all information from user profile
         //place holder
-        out += "Game Of Thrones, Supernatural, Doctor Who, Kingdom Hearts, Sherlock, Once upon a time, 123456789123456789123456789";
+        out += profileText.getText();
         return out;
     }
 
