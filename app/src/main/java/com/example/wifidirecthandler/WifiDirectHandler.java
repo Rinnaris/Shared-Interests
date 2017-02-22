@@ -28,6 +28,7 @@ public class WifiDirectHandler {
 
     //from main activity
     private Context context;
+    private MainActivity mActivity;
 
     //wifip2pstuff
     private final IntentFilter intentFilter = new IntentFilter();
@@ -35,8 +36,9 @@ public class WifiDirectHandler {
     private WifiP2pManager.Channel mChannel;
     private WifiDirectBroadCastReciever receiver;
 
-    public WifiDirectHandler(Context contextIn, WifiP2pManager manager, String profile) {
+    public WifiDirectHandler(Context contextIn, WifiP2pManager manager, String profile, MainActivity mActivityIn) {
         context = contextIn;
+        mActivity = mActivityIn;
 
         //  Indicates a change in the Wi-Fi P2P status.
         intentFilter.addAction(WifiP2pManager.WIFI_P2P_STATE_CHANGED_ACTION);
@@ -165,7 +167,7 @@ public class WifiDirectHandler {
 
 
     //so this method is a nightmare. I don't suggest trying to understand it as long as it works
-    //TODO this only works the first five or six times it is called for one phone
+    //TODO this only works the first five or six times it is called for one phone, or maybe not now
     public void discoverService() {
         WifiP2pManager.DnsSdTxtRecordListener txtListener = new WifiP2pManager.DnsSdTxtRecordListener() {
             @Override
@@ -241,7 +243,8 @@ public class WifiDirectHandler {
 
     private void processBuddyName(String buddyname) {
         String out = buddyname;
-        out = out.substring(9);
+        out.replace("BUDDYNAME", "");
+        mActivity.text.setText(out);
         System.out.println(out);
     }
 
@@ -313,5 +316,9 @@ public class WifiDirectHandler {
                         // react to failure of removing service request
                     }
                 });
+    }
+
+    public void setInfoString(String infoString) {
+        this.infoString = infoString;
     }
 }

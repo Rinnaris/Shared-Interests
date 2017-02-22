@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                handler.setInfoString(createProfile());
                 handler.startRegistration();
             }
         });
@@ -57,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         text = (TextView) findViewById(R.id.text);
         Context context = this;
         WifiP2pManager manager = (WifiP2pManager) getSystemService(Context.WIFI_P2P_SERVICE);
-        handler = new WifiDirectHandler(context, manager, profile);
+        handler = new WifiDirectHandler(context, manager, profile, this);
 
     }
 
@@ -67,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
         //TODO add all information from user profile
         //place holder
         out += profileText.getText();
+        System.out.println("PROFILE" + out);
         return out;
     }
 
