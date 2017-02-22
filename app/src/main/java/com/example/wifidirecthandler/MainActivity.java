@@ -17,8 +17,8 @@ public class MainActivity extends AppCompatActivity {
     private WifiDirectHandler handler;
 
     private Button button;
-    private Button button2;
-    private Button button3;
+    //private Button button2;
+    //private Button button3;
 
     private EditText profileText;
 
@@ -33,13 +33,19 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //set up wifidirect
                 handler.searchForPhonesOnce();
-                text.setText(handler.peersToString());
-                //handler.services();
+
+                //register service with profile info
+                handler.setInfoString(createProfile());
+                handler.startRegistration();
+
+                //check for nearby services
+                handler.services();
             }
         });
 
-        button2 = (Button) findViewById(R.id.button2);
+        /*button2 = (Button) findViewById(R.id.button2);
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -53,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 handler.services();
             }
-        });
+        });*/
 
         text = (TextView) findViewById(R.id.text);
         Context context = this;

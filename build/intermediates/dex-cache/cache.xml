@@ -52,7 +52,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="080095dab818729a5685be6733009c243eb8452d">
+        sha1="e55b78b7394858fbbde47f21b33a4920a90f071b">
         <dex dex="/Users/rinnaris/Desktop/WifiDirectHandler/Shared-Interests/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_0df503d6fd24c4c34aedcd8bf4cd4367093f6317/classes.dex" />
     </item>
     <item
@@ -97,7 +97,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="f14c1faaa2ffee7d50d303c39d859f8365ba1980">
+        sha1="808824177b55d7a51941ea9f1fa3d0a287a1aa8b">
         <dex dex="/Users/rinnaris/Desktop/WifiDirectHandler/Shared-Interests/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_764f9338a31f380c3c57ee6a247c4ee3e65c6e6d/classes.dex" />
     </item>
     <item
