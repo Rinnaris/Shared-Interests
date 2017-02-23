@@ -39,6 +39,8 @@ public class Setup extends AppCompatActivity {
                 welcomeText.setVisibility(View.INVISIBLE);
                 nameField.setVisibility(View.VISIBLE);
                 instructionsText.setVisibility(View.VISIBLE);
+
+                startButton.setText("OK");
             }
         });
     }
