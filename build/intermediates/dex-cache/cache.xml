@@ -3,111 +3,111 @@
 
     <item
         is-multidex="true"
-        jar="/Users/rinnaris/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jar="C:\Users\Qwan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
-        <dex dex="/Users/rinnaris/Desktop/WifiDirectHandler/Shared-Interests/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_09149297602e74cc31cff7a6f4bc30088c00127a/classes.dex" />
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.1_121cb8613638975591b120728b1bf1d71457a869\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/rinnaris/Desktop/WifiDirectHandler/Shared-Interests/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jar="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="/Users/rinnaris/Desktop/WifiDirectHandler/Shared-Interests/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_8f807ade9347e11a10f5404d4ca817ff38810958/classes.dex" />
+        sha1="9b85e335049d7552b1417b376626a7dfc7812808">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_78cdc43feca44d74a535c70c380d21512afdbd53\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/rinnaris/Desktop/WifiDirectHandler/Shared-Interests/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jar="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="/Users/rinnaris/Desktop/WifiDirectHandler/Shared-Interests/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_939c27f8c1fd04cca71026bcf7a262e9b8ddf698/classes.dex" />
+        sha1="58f28a68147eaa8d3cf37a84fb0409ddbe7fa19f">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0ed693ce84aa99d71fde76764d2f4d310c7218da\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/rinnaris/Desktop/WifiDirectHandler/Shared-Interests/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="/Users/rinnaris/Desktop/WifiDirectHandler/Shared-Interests/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_5505a09dc10205f183bf2a0e68c6d7b415ec74f8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/rinnaris/Desktop/WifiDirectHandler/Shared-Interests/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
-        <dex dex="/Users/rinnaris/Desktop/WifiDirectHandler/Shared-Interests/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.1_0495baf7121d66c2ca0f3f291b0dd840d1147cfe/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/rinnaris/Desktop/WifiDirectHandler/Shared-Interests/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e55b78b7394858fbbde47f21b33a4920a90f071b">
-        <dex dex="/Users/rinnaris/Desktop/WifiDirectHandler/Shared-Interests/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_0df503d6fd24c4c34aedcd8bf4cd4367093f6317/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/rinnaris/Desktop/WifiDirectHandler/Shared-Interests/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
-        <dex dex="/Users/rinnaris/Desktop/WifiDirectHandler/Shared-Interests/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.1_a638d94567d54514daa1c43cb6a106623a509dfd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/rinnaris/Desktop/WifiDirectHandler/Shared-Interests/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/rinnaris/Desktop/WifiDirectHandler/Shared-Interests/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_401c52c9bc5a8375871f8eeeb9599e689598c444/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/rinnaris/Desktop/WifiDirectHandler/Shared-Interests/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
-        <dex dex="/Users/rinnaris/Desktop/WifiDirectHandler/Shared-Interests/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_f0f9d953b8dda6d8e48d25d4326267d9bf9afe56/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/rinnaris/Desktop/WifiDirectHandler/Shared-Interests/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jar="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
-        <dex dex="/Users/rinnaris/Desktop/WifiDirectHandler/Shared-Interests/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_9812936cacba2d834f508c661cfadc28068f7314/classes.dex" />
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.1_853935cd889f40153901df4cbe7d308e37226a19\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/rinnaris/Desktop/WifiDirectHandler/Shared-Interests/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="808824177b55d7a51941ea9f1fa3d0a287a1aa8b">
-        <dex dex="/Users/rinnaris/Desktop/WifiDirectHandler/Shared-Interests/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_764f9338a31f380c3c57ee6a247c4ee3e65c6e6d/classes.dex" />
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.1_6b23e01c68be828e97f520bd2e6bf8d750a7854a\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/rinnaris/Desktop/WifiDirectHandler/Shared-Interests/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
+        jar="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.1_1855e61ba3946884083da5236e113a8b01331ed2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.1_3a89a404e8ca02361e63d9974b3a42c8d2e28426\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.1_072abe818116d400f7e52a6d6b7a40a3fb53f701\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.1_f95d7da295d1da9ecb68f43fd1a012178c00c125\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.1_2c865409f83909e4d097e4d4935ebb6a2b126b69\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.1_d323d2e79fb772b10ef1c9a591c27ea57a6aa7b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
-        <dex dex="/Users/rinnaris/Desktop/WifiDirectHandler/Shared-Interests/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_cbd18f089786b075a2c3e6b67bd5f3ffb1dccf38/classes.dex" />
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.1_2fee8698dce693d01c5ea914cb989af31e352b79\classes.dex" />
     </item>
 
 </items>
