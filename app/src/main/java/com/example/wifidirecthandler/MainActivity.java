@@ -9,51 +9,37 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-
 public class MainActivity extends AppCompatActivity {
 
-    private int callCount;
-
-    public ArrayList<String> previousProfiles;
     private String profile;
     public TextView text;
 
     private WifiDirectHandler handler;
 
-    private Button sendButton;
-    private Button receiveButton;
+    private Button button;
+    //private Button button2;
     //private Button button3;
 
     private EditText profileText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        callCount = 0;
-        previousProfiles = new ArrayList<>();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        sendButton = (Button) findViewById(R.id.button);
-        sendButton.setOnClickListener(new View.OnClickListener() {
+        profile = createProfile();
+
+        button = (Button) findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //incrementCallCount();
                 //set up wifidirect
                 handler.searchForPhonesOnce();
-                //register service with profile info
 
+                //register service with profile info
                 handler.setInfoString(createProfile());
                 handler.startRegistration();
-            }
-        });
 
-        receiveButton = (Button) findViewById(R.id.button2);
-        receiveButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //incrementCallCount();
                 //check for nearby services
                 handler.services();
             }
@@ -76,34 +62,18 @@ public class MainActivity extends AppCompatActivity {
         });*/
 
         text = (TextView) findViewById(R.id.text);
-        createNewWifiDirectHandler();
-
-    }
-
-    private void incrementCallCount() {
-        if(callCount >= 3){
-            System.out.println("resetting call count");
-            callCount = 0;
-            createNewWifiDirectHandler();
-        }
-        else{
-            callCount += 1;
-        }
-    }
-
-    private void createNewWifiDirectHandler(){
-        if(handler != null) {
-            handler.handlerUnRegisterReciever();
-        }
+        Context context = this;
         WifiP2pManager manager = (WifiP2pManager) getSystemService(Context.WIFI_P2P_SERVICE);
-        handler = new WifiDirectHandler(this, manager, profile, this);
+        handler = new WifiDirectHandler(context, manager, profile, this);
+
     }
 
     private String createProfile() {
-        String out = "FNF";
+        String out = "";
         profileText = (EditText) findViewById(R.id.profileText);
+        //TODO add all information from user profile
+        //place holder
         out += profileText.getText();
-        previousProfiles.add(out);
         System.out.println("PROFILE" + out);
         return out;
     }

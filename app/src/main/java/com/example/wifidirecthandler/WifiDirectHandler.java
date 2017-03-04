@@ -20,7 +20,6 @@ import static android.os.Looper.getMainLooper;
  */
 
 public class WifiDirectHandler {
-    //extra stuff
     //stuff for service discovery
     private static final int SERVER_PORT = 20000;
     private String infoString;
@@ -37,62 +36,7 @@ public class WifiDirectHandler {
     private WifiP2pManager.Channel mChannel;
     private WifiDirectBroadCastReciever receiver;
 
-    //this is terrifying but may solve a problem i dunno
-    WifiP2pManager.DnsSdTxtRecordListener txtListener = new WifiP2pManager.DnsSdTxtRecordListener() {
-        @Override
-        /* Callback includes:
-         * fullDomain: full domain name: e.g "printer._ipp._tcp.local."
-         * record: TXT record dta as a map of key/value pairs.
-         * device: The device running the advertised service.
-         */
-
-        public void onDnsSdTxtRecordAvailable(String fullDomain, Map record, WifiP2pDevice device) {
-            buddies.clear();
-            buddies.put(device.deviceAddress, (String) record.get("buddyname"));
-            processBuddyName((String)record.get("buddyname"));
-            System.out.println("BUDDYNAME" + record.get("buddyname"));
-        }
-    };
-
-    //so is this
-    WifiP2pManager.DnsSdServiceResponseListener servListener = new WifiP2pManager.DnsSdServiceResponseListener() {
-        @Override
-        public void onDnsSdServiceAvailable(String instanceName, String registrationType,
-                                            WifiP2pDevice resourceType) {
-
-            // Update the device name with the human-friendly version from
-            // the DnsTxtRecord, assuming one arrived.
-            resourceType.deviceName = buddies
-                    .containsKey(resourceType.deviceAddress) ? buddies
-                    .get(resourceType.deviceAddress) : resourceType.deviceName;
-
-                /*// Add to the custom adapter defined specifically for showing
-                // wifi devices.
-                WiFiDirectServicesList fragment = (WiFiDirectServicesList) getFragmentManager()
-                        .findFragmentById(R.id.frag_peerlist);
-                WiFiDevicesAdapter adapter = ((WiFiDevicesAdapter) fragment
-                        .getListAdapter());
-
-                adapter.add(resourceType);
-                adapter.notifyDataSetChanged();
-                Log.d(TAG, "onBonjourServiceAvailable " + instanceName);*/
-        }
-    };
-    //this too
-    WifiP2pManager.ActionListener serviceActionListener = new WifiP2pManager.ActionListener() {
-        @Override
-        public void onSuccess() {
-
-        }
-
-        @Override
-        public void onFailure(int reason) {
-
-        }
-    };
-
     public WifiDirectHandler(Context contextIn, WifiP2pManager manager, String profile, MainActivity mActivityIn) {
-
         context = contextIn;
         mActivity = mActivityIn;
 
@@ -189,10 +133,12 @@ public class WifiDirectHandler {
         mManager.clearLocalServices(mChannel, new WifiP2pManager.ActionListener() {
             @Override
             public void onSuccess() {
+                System.out.println("services cleared");
             }
 
             @Override
             public void onFailure(int reason) {
+                System.out.println("Services not cleared");
             }
         });
         // Add the local service, sending the service info, network channel,
@@ -203,6 +149,7 @@ public class WifiDirectHandler {
             public void onSuccess() {
                 // Command successful! Code isn't necessarily needed here,
                 // Unless you want to update the UI or add logging statements.
+                System.out.println("Service Registered");
             }
 
             @Override
@@ -214,7 +161,7 @@ public class WifiDirectHandler {
 
     private boolean setupInfoString(String profile){
         infoString = "BuddyApp " + profile;
-        System.out.println("PROFILE " + profile);
+        System.out.println(profile);
         return false;
     }
 
@@ -222,15 +169,63 @@ public class WifiDirectHandler {
     //so this method is a nightmare. I don't suggest trying to understand it as long as it works
     //TODO this only works the first five or six times it is called for one phone, or maybe not now
     public void discoverService() {
+        WifiP2pManager.DnsSdTxtRecordListener txtListener = new WifiP2pManager.DnsSdTxtRecordListener() {
+            @Override
+        /* Callback includes:
+         * fullDomain: full domain name: e.g "printer._ipp._tcp.local."
+         * record: TXT record dta as a map of key/value pairs.
+         * device: The device running the advertised service.
+         */
+
+            public void onDnsSdTxtRecordAvailable(String fullDomain, Map record, WifiP2pDevice device) {
+                buddies.clear();
+                buddies.put(device.deviceAddress, (String) record.get("buddyname"));
+                processBuddyName((String)record.get("buddyname"));
+                System.out.println("BUDDYNAME" + record.get("buddyname"));
+            }
+        };
+        WifiP2pManager.DnsSdServiceResponseListener servListener = new WifiP2pManager.DnsSdServiceResponseListener() {
+            @Override
+            public void onDnsSdServiceAvailable(String instanceName, String registrationType,
+                                                WifiP2pDevice resourceType) {
+
+                // Update the device name with the human-friendly version from
+                // the DnsTxtRecord, assuming one arrived.
+                resourceType.deviceName = buddies
+                        .containsKey(resourceType.deviceAddress) ? buddies
+                        .get(resourceType.deviceAddress) : resourceType.deviceName;
+
+                /*// Add to the custom adapter defined specifically for showing
+                // wifi devices.
+                WiFiDirectServicesList fragment = (WiFiDirectServicesList) getFragmentManager()
+                        .findFragmentById(R.id.frag_peerlist);
+                WiFiDevicesAdapter adapter = ((WiFiDevicesAdapter) fragment
+                        .getListAdapter());
+
+                adapter.add(resourceType);
+                adapter.notifyDataSetChanged();
+                Log.d(TAG, "onBonjourServiceAvailable " + instanceName);*/
+            }
+        };
         mManager.setDnsSdResponseListeners(mChannel, servListener, txtListener);
         serviceRequest = WifiP2pDnsSdServiceRequest.newInstance();
-        mManager.clearServiceRequests(mChannel, serviceActionListener);
-        mManager.addServiceRequest(mChannel, serviceRequest, serviceActionListener);
+        mManager.addServiceRequest(mChannel, serviceRequest, new WifiP2pManager.ActionListener() {
+                    @Override
+                    public void onSuccess() {
+                        // Success!
+                    }
+
+                    @Override
+                    public void onFailure(int code) {
+                        // Command failed.  Check for P2P_UNSUPPORTED, ERROR, or BUSY
+                    }
+                });
         mManager.discoverServices(mChannel, new WifiP2pManager.ActionListener() {
 
             @Override
             public void onSuccess() {
                 // Success!
+                System.out.println("servicesuccess");
             }
 
             @Override
@@ -247,21 +242,10 @@ public class WifiDirectHandler {
     }
 
     private void processBuddyName(String buddyname) {
-        //if service name is for this app
-        if(buddyname.contains("FNF")){
-            //if app has not seen this service before
-            if(!mActivity.previousProfiles.contains(buddyname)){
-                mActivity.previousProfiles.add(buddyname);
-                String out = buddyname;
-                out = out.replace("BUDDYNAME", "");
-                out = out.replace("FNF", "");
-                setMainText(out);
-            }
-        }
-    }
-
-    private void setMainText(String out) {
+        String out = buddyname;
+        out.replace("BUDDYNAME", "");
         mActivity.text.setText(out);
+        System.out.println(out);
     }
 
     public void services() {
@@ -309,11 +293,13 @@ public class WifiDirectHandler {
                                                     @Override
                                                     public void onSuccess() {
                                                         //service discovery started
+                                                        System.out.println("ServiceDiscovery Started");
                                                     }
 
                                                     @Override
                                                     public void onFailure(int error) {
                                                         // react to failure of starting service discovery
+                                                        System.out.println("ServiceDiscovery Failed");
                                                     }
                                                 });
                                     }
