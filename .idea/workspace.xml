@@ -7,20 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f47b5408-d547-4b8d-b33a-fbf81402d208" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/wifidirecthandler/UserProfile.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/wifidirecthandler/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/wifidirecthandler/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/wifidirecthandler/WifiDirectHandler.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/wifidirecthandler/WifiDirectHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
     </list>
     <ignored path="Shared-Interests.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,19 +50,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/wifidirecthandler/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
-              <folding>
-                <element signature="e#1057#1454#0" expanded="true" />
-                <element signature="e#1453#1454#0" expanded="true" />
-                <element signature="e#1560#1796#0" expanded="true" />
-                <element signature="e#1795#1796#0" expanded="true" />
-                <marker date="1487808152000" expanded="false" signature="1892:1987" ph="(view) → {" />
-                <marker date="1487808152000" expanded="false" signature="2097:2112" ph="}" />
-              </folding>
+            <state relative-caret-position="570">
+              <caret line="48" column="19" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,25 +63,80 @@
       <file leaf-file-name="WifiDirectHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/wifidirecthandler/WifiDirectHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-57">
-              <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
               <folding>
-                <element signature="e#785#801#0" expanded="true" />
-                <element signature="e#1278#1942#0" expanded="true" />
-                <element signature="e#1941#1942#0" expanded="true" />
-                <element signature="method#WifiDirectHandler#1;class#WifiDirectHandler#0" expanded="false" />
+                <element signature="docComment;class#WifiDirectHandler#0" expanded="false" />
+                <element signature="e#574#592#0" expanded="false" />
+                <element signature="e#4038#4061#0" expanded="false" />
                 <element signature="method#handlerRegisterReciever#0;class#WifiDirectHandler#0" expanded="false" />
+                <element signature="e#4772#4857#0" expanded="false" />
+                <element signature="method#peersToString#0;class#WifiDirectHandler#0" expanded="false" />
                 <element signature="method#startRegistration#0;class#WifiDirectHandler#0" expanded="false" />
-                <element signature="e#9715#9716#0" expanded="true" />
-                <element signature="e#9758#9759#0" expanded="true" />
-                <element signature="method#prepareServiceDiscovery#0;class#WifiDirectHandler#0" expanded="false" />
-                <element signature="method#startServiceDiscovery#0;class#WifiDirectHandler#0" expanded="false" />
+                <element signature="e#6599#6657#0" expanded="false" />
+                <element signature="class#7151:7353" expanded="false" />
+                <element signature="method#onSuccess#0;class#7151:7353" expanded="false" />
+                <element signature="method#onFailure#0;class#7151:7353" expanded="false" />
+                <element signature="e#7365#7433#0" expanded="false" />
+                <element signature="class#7594:8026" expanded="false" />
+                <element signature="method#onSuccess#0;class#7594:8026" expanded="false" />
+                <element signature="e#7704#7762#0" expanded="false" />
+                <element signature="method#onFailure#0;class#7594:8026" expanded="false" />
+                <element signature="method#setupServiceName#0;class#WifiDirectHandler#0" expanded="false" />
+                <element signature="method#discoverService#0;class#WifiDirectHandler#0" expanded="false" />
+                <element signature="e#9606#9668#0" expanded="false" />
+                <element signature="class#10735:11113" expanded="false" />
+                <element signature="method#onSuccess#0;class#10735:11113" expanded="false" />
+                <element signature="method#onFailure#0;class#10735:11113" expanded="false" />
+                <element signature="class#11164:11766" expanded="false" />
+                <element signature="method#onSuccess#0;class#11164:11766" expanded="false" />
+                <element signature="method#onFailure#0;class#11164:11766" expanded="false" />
+                <element signature="method#processBuddyName#0;class#WifiDirectHandler#0" expanded="false" />
+                <marker date="1488664368000" expanded="false" signature="656:1942" ph="..." />
+                <marker date="1488664368000" expanded="false" signature="1318:1411" ph="..." />
+                <marker date="1488664368000" expanded="false" signature="4033:12458" ph="..." />
+                <marker date="1488664368000" expanded="false" signature="4153:4767" ph="..." />
+                <marker date="1488664368000" expanded="false" signature="5008:5953" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserProfile.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/wifidirecthandler/UserProfile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="996">
+              <caret line="141" column="63" selection-start-line="141" selection-start-column="63" selection-end-line="141" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#UserProfile#0;class#UserProfile#0" expanded="false" />
+                <element signature="method#readString#0;class#UserProfile#0" expanded="false" />
+                <element signature="method#toString#0;class#UserProfile#0" expanded="false" />
+                <element signature="method#compare#0;class#UserProfile#0" expanded="false" />
+                <element signature="method#addItem#0;class#UserProfile#0" expanded="false" />
+                <element signature="method#removeItem#0;class#UserProfile#0" expanded="false" />
+                <element signature="method#findItem#0;class#UserProfile#0" expanded="false" />
+                <element signature="method#getCategory#0;class#UserProfile#0" expanded="false" />
+                <element signature="method#getCategory#1;class#UserProfile#0" expanded="false" />
+                <element signature="method#fillList#0;class#UserProfile#0" expanded="false" />
+                <element signature="method#initialize#0;class#UserProfile#0" expanded="false" />
+                <element signature="method#removeControlCharacters#0;class#UserProfile#0" expanded="false" />
+                <marker date="1488675072000" expanded="false" signature="5144:5843" ph="..." />
+                <marker date="1488675072000" expanded="false" signature="6045:6785" ph="..." />
+                <marker date="1488675072000" expanded="false" signature="7005:9717" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="ASClass" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -497,11 +542,6 @@
                 <option name="name" value="generateDebugAndroidTestResValues" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.google.android.gms:play-services-basement:8.4.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComGoogleAndroidGmsPlayServicesBasement840Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeReleaseShaders" />
               </ExternalTaskPojo>
@@ -558,11 +598,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="jarReleaseClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.google.android.gms:play-services-base:8.4.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComGoogleAndroidGmsPlayServicesBase840Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -709,11 +744,6 @@
                 <option name="description" value="Prints out all the source sets defined in this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="sourceSets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.google.android.gms:play-services-appindexing:8.4.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComGoogleAndroidGmsPlayServicesAppindexing840Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1191,11 +1221,6 @@
                 <option name="name" value="generateDebugAndroidTestResValues" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.google.android.gms:play-services-basement:8.4.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComGoogleAndroidGmsPlayServicesBasement840Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="mergeReleaseShaders" />
               </ExternalTaskPojo>
@@ -1252,11 +1277,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="jarReleaseClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.google.android.gms:play-services-base:8.4.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComGoogleAndroidGmsPlayServicesBase840Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1405,11 +1425,6 @@
                 <option name="name" value="sourceSets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.google.android.gms:play-services-appindexing:8.4.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComGoogleAndroidGmsPlayServicesAppindexing840Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="transformResourcesWithMergeJavaResForDebugUnitTest" />
               </ExternalTaskPojo>
@@ -1526,7 +1541,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4463085134000" />
+        <entry key="$PROJECT_DIR$" value="4463406648000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1793,8 +1808,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/wifidirecthandler/WifiDirectHandler.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/wifidirecthandler/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/wifidirecthandler/WifiDirectHandler.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/wifidirecthandler/UserProfile.java" />
       </list>
     </option>
   </component>
@@ -1828,7 +1844,7 @@
     </navigator>
     <panes>
       <pane id="ProjectPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1914,7 +1930,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2184,33 +2200,43 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2218,7 +2244,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -2226,23 +2251,64 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/wifidirecthandler/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/wifidirecthandler/WifiDirectHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#WifiDirectHandler#0" expanded="false" />
+            <element signature="e#574#592#0" expanded="false" />
+            <element signature="e#4038#4061#0" expanded="false" />
+            <element signature="method#handlerRegisterReciever#0;class#WifiDirectHandler#0" expanded="false" />
+            <element signature="e#4772#4857#0" expanded="false" />
+            <element signature="method#peersToString#0;class#WifiDirectHandler#0" expanded="false" />
+            <element signature="method#startRegistration#0;class#WifiDirectHandler#0" expanded="false" />
+            <element signature="e#6599#6657#0" expanded="false" />
+            <element signature="class#7151:7353" expanded="false" />
+            <element signature="method#onSuccess#0;class#7151:7353" expanded="false" />
+            <element signature="method#onFailure#0;class#7151:7353" expanded="false" />
+            <element signature="e#7365#7433#0" expanded="false" />
+            <element signature="class#7594:8026" expanded="false" />
+            <element signature="method#onSuccess#0;class#7594:8026" expanded="false" />
+            <element signature="e#7704#7762#0" expanded="false" />
+            <element signature="method#onFailure#0;class#7594:8026" expanded="false" />
+            <element signature="method#setupServiceName#0;class#WifiDirectHandler#0" expanded="false" />
+            <element signature="method#discoverService#0;class#WifiDirectHandler#0" expanded="false" />
+            <element signature="e#9606#9668#0" expanded="false" />
+            <element signature="class#10735:11113" expanded="false" />
+            <element signature="method#onSuccess#0;class#10735:11113" expanded="false" />
+            <element signature="method#onFailure#0;class#10735:11113" expanded="false" />
+            <element signature="class#11164:11766" expanded="false" />
+            <element signature="method#onSuccess#0;class#11164:11766" expanded="false" />
+            <element signature="method#onFailure#0;class#11164:11766" expanded="false" />
+            <element signature="method#processBuddyName#0;class#WifiDirectHandler#0" expanded="false" />
+            <marker date="1488664368000" expanded="false" signature="656:1942" ph="..." />
+            <marker date="1488664368000" expanded="false" signature="1318:1411" ph="..." />
+            <marker date="1488664368000" expanded="false" signature="4033:12458" ph="..." />
+            <marker date="1488664368000" expanded="false" signature="4153:4767" ph="..." />
+            <marker date="1488664368000" expanded="false" signature="5008:5953" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/wifidirecthandler/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="e#1057#1454#0" expanded="true" />
-            <element signature="e#1453#1454#0" expanded="true" />
-            <element signature="e#1560#1796#0" expanded="true" />
-            <element signature="e#1795#1796#0" expanded="true" />
-            <marker date="1487808152000" expanded="false" signature="1892:1987" ph="(view) → {" />
-            <marker date="1487808152000" expanded="false" signature="2097:2112" ph="}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2262,16 +2328,37 @@
         <state relative-caret-position="1725">
           <caret line="248" column="5" selection-start-line="248" selection-start-column="5" selection-end-line="248" selection-end-column="5" />
           <folding>
-            <element signature="e#785#801#0" expanded="true" />
-            <element signature="e#1278#1942#0" expanded="true" />
-            <element signature="e#1941#1942#0" expanded="true" />
-            <element signature="method#WifiDirectHandler#1;class#WifiDirectHandler#0" expanded="false" />
+            <element signature="docComment;class#WifiDirectHandler#0" expanded="false" />
+            <element signature="e#574#592#0" expanded="false" />
+            <element signature="e#4038#4061#0" expanded="false" />
             <element signature="method#handlerRegisterReciever#0;class#WifiDirectHandler#0" expanded="false" />
+            <element signature="e#4772#4857#0" expanded="false" />
+            <element signature="method#peersToString#0;class#WifiDirectHandler#0" expanded="false" />
             <element signature="method#startRegistration#0;class#WifiDirectHandler#0" expanded="false" />
-            <element signature="e#9715#9716#0" expanded="true" />
-            <element signature="e#9758#9759#0" expanded="true" />
-            <element signature="method#prepareServiceDiscovery#0;class#WifiDirectHandler#0" expanded="false" />
-            <element signature="method#startServiceDiscovery#0;class#WifiDirectHandler#0" expanded="false" />
+            <element signature="e#6599#6657#0" expanded="false" />
+            <element signature="class#7151:7353" expanded="false" />
+            <element signature="method#onSuccess#0;class#7151:7353" expanded="false" />
+            <element signature="method#onFailure#0;class#7151:7353" expanded="false" />
+            <element signature="e#7365#7433#0" expanded="false" />
+            <element signature="class#7594:8026" expanded="false" />
+            <element signature="method#onSuccess#0;class#7594:8026" expanded="false" />
+            <element signature="e#7704#7762#0" expanded="false" />
+            <element signature="method#onFailure#0;class#7594:8026" expanded="false" />
+            <element signature="method#setupServiceName#0;class#WifiDirectHandler#0" expanded="false" />
+            <element signature="method#discoverService#0;class#WifiDirectHandler#0" expanded="false" />
+            <element signature="e#9606#9668#0" expanded="false" />
+            <element signature="class#10735:11113" expanded="false" />
+            <element signature="method#onSuccess#0;class#10735:11113" expanded="false" />
+            <element signature="method#onFailure#0;class#10735:11113" expanded="false" />
+            <element signature="class#11164:11766" expanded="false" />
+            <element signature="method#onSuccess#0;class#11164:11766" expanded="false" />
+            <element signature="method#onFailure#0;class#11164:11766" expanded="false" />
+            <element signature="method#processBuddyName#0;class#WifiDirectHandler#0" expanded="false" />
+            <marker date="1488664368000" expanded="false" signature="656:1942" ph="..." />
+            <marker date="1488664368000" expanded="false" signature="1318:1411" ph="..." />
+            <marker date="1488664368000" expanded="false" signature="4033:12458" ph="..." />
+            <marker date="1488664368000" expanded="false" signature="4153:4767" ph="..." />
+            <marker date="1488664368000" expanded="false" signature="5008:5953" ph="..." />
           </folding>
         </state>
       </provider>
@@ -2280,14 +2367,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="60" column="71" selection-start-line="60" selection-start-column="71" selection-end-line="60" selection-end-column="71" />
-          <folding>
-            <element signature="e#1057#1454#0" expanded="true" />
-            <element signature="e#1453#1454#0" expanded="true" />
-            <element signature="e#1560#1796#0" expanded="true" />
-            <element signature="e#1795#1796#0" expanded="true" />
-            <marker date="1487808152000" expanded="false" signature="1892:1987" ph="(view) → {" />
-            <marker date="1487808152000" expanded="false" signature="2097:2112" ph="}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2296,17 +2376,60 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#785#801#0" expanded="true" />
-            <element signature="e#1278#1942#0" expanded="true" />
-            <element signature="e#1941#1942#0" expanded="true" />
-            <element signature="method#WifiDirectHandler#1;class#WifiDirectHandler#0" expanded="false" />
+            <element signature="docComment;class#WifiDirectHandler#0" expanded="false" />
+            <element signature="e#574#592#0" expanded="false" />
+            <element signature="e#4038#4061#0" expanded="false" />
             <element signature="method#handlerRegisterReciever#0;class#WifiDirectHandler#0" expanded="false" />
+            <element signature="e#4772#4857#0" expanded="false" />
+            <element signature="method#peersToString#0;class#WifiDirectHandler#0" expanded="false" />
             <element signature="method#startRegistration#0;class#WifiDirectHandler#0" expanded="false" />
-            <element signature="e#9715#9716#0" expanded="true" />
-            <element signature="e#9758#9759#0" expanded="true" />
-            <element signature="method#prepareServiceDiscovery#0;class#WifiDirectHandler#0" expanded="false" />
-            <element signature="method#startServiceDiscovery#0;class#WifiDirectHandler#0" expanded="false" />
+            <element signature="e#6599#6657#0" expanded="false" />
+            <element signature="class#7151:7353" expanded="false" />
+            <element signature="method#onSuccess#0;class#7151:7353" expanded="false" />
+            <element signature="method#onFailure#0;class#7151:7353" expanded="false" />
+            <element signature="e#7365#7433#0" expanded="false" />
+            <element signature="class#7594:8026" expanded="false" />
+            <element signature="method#onSuccess#0;class#7594:8026" expanded="false" />
+            <element signature="e#7704#7762#0" expanded="false" />
+            <element signature="method#onFailure#0;class#7594:8026" expanded="false" />
+            <element signature="method#setupServiceName#0;class#WifiDirectHandler#0" expanded="false" />
+            <element signature="method#discoverService#0;class#WifiDirectHandler#0" expanded="false" />
+            <element signature="e#9606#9668#0" expanded="false" />
+            <element signature="class#10735:11113" expanded="false" />
+            <element signature="method#onSuccess#0;class#10735:11113" expanded="false" />
+            <element signature="method#onFailure#0;class#10735:11113" expanded="false" />
+            <element signature="class#11164:11766" expanded="false" />
+            <element signature="method#onSuccess#0;class#11164:11766" expanded="false" />
+            <element signature="method#onFailure#0;class#11164:11766" expanded="false" />
+            <element signature="method#processBuddyName#0;class#WifiDirectHandler#0" expanded="false" />
+            <marker date="1488664368000" expanded="false" signature="656:1942" ph="..." />
+            <marker date="1488664368000" expanded="false" signature="1318:1411" ph="..." />
+            <marker date="1488664368000" expanded="false" signature="4033:12458" ph="..." />
+            <marker date="1488664368000" expanded="false" signature="4153:4767" ph="..." />
+            <marker date="1488664368000" expanded="false" signature="5008:5953" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_setup.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2318,47 +2441,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/wifidirecthandler/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="48" column="19" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="19" />
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/wifidirecthandler/WifiDirectHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
           <folding>
-            <element signature="e#785#801#0" expanded="true" />
-            <element signature="e#1278#1942#0" expanded="true" />
-            <element signature="e#1941#1942#0" expanded="true" />
-            <element signature="method#WifiDirectHandler#1;class#WifiDirectHandler#0" expanded="false" />
+            <element signature="docComment;class#WifiDirectHandler#0" expanded="false" />
+            <element signature="e#574#592#0" expanded="false" />
+            <element signature="e#4038#4061#0" expanded="false" />
             <element signature="method#handlerRegisterReciever#0;class#WifiDirectHandler#0" expanded="false" />
+            <element signature="e#4772#4857#0" expanded="false" />
+            <element signature="method#peersToString#0;class#WifiDirectHandler#0" expanded="false" />
             <element signature="method#startRegistration#0;class#WifiDirectHandler#0" expanded="false" />
-            <element signature="e#9715#9716#0" expanded="true" />
-            <element signature="e#9758#9759#0" expanded="true" />
-            <element signature="method#prepareServiceDiscovery#0;class#WifiDirectHandler#0" expanded="false" />
-            <element signature="method#startServiceDiscovery#0;class#WifiDirectHandler#0" expanded="false" />
+            <element signature="e#6599#6657#0" expanded="false" />
+            <element signature="class#7151:7353" expanded="false" />
+            <element signature="method#onSuccess#0;class#7151:7353" expanded="false" />
+            <element signature="method#onFailure#0;class#7151:7353" expanded="false" />
+            <element signature="e#7365#7433#0" expanded="false" />
+            <element signature="class#7594:8026" expanded="false" />
+            <element signature="method#onSuccess#0;class#7594:8026" expanded="false" />
+            <element signature="e#7704#7762#0" expanded="false" />
+            <element signature="method#onFailure#0;class#7594:8026" expanded="false" />
+            <element signature="method#setupServiceName#0;class#WifiDirectHandler#0" expanded="false" />
+            <element signature="method#discoverService#0;class#WifiDirectHandler#0" expanded="false" />
+            <element signature="e#9606#9668#0" expanded="false" />
+            <element signature="class#10735:11113" expanded="false" />
+            <element signature="method#onSuccess#0;class#10735:11113" expanded="false" />
+            <element signature="method#onFailure#0;class#10735:11113" expanded="false" />
+            <element signature="class#11164:11766" expanded="false" />
+            <element signature="method#onSuccess#0;class#11164:11766" expanded="false" />
+            <element signature="method#onFailure#0;class#11164:11766" expanded="false" />
+            <element signature="method#processBuddyName#0;class#WifiDirectHandler#0" expanded="false" />
+            <marker date="1488664368000" expanded="false" signature="656:1942" ph="..." />
+            <marker date="1488664368000" expanded="false" signature="1318:1411" ph="..." />
+            <marker date="1488664368000" expanded="false" signature="4033:12458" ph="..." />
+            <marker date="1488664368000" expanded="false" signature="4153:4767" ph="..." />
+            <marker date="1488664368000" expanded="false" signature="5008:5953" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/wifidirecthandler/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/wifidirecthandler/UserProfile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+        <state relative-caret-position="996">
+          <caret line="141" column="63" selection-start-line="141" selection-start-column="63" selection-end-line="141" selection-end-column="63" />
           <folding>
-            <element signature="e#1057#1454#0" expanded="true" />
-            <element signature="e#1453#1454#0" expanded="true" />
-            <element signature="e#1560#1796#0" expanded="true" />
-            <element signature="e#1795#1796#0" expanded="true" />
-            <marker date="1487808152000" expanded="false" signature="1892:1987" ph="(view) → {" />
-            <marker date="1487808152000" expanded="false" signature="2097:2112" ph="}" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#UserProfile#0;class#UserProfile#0" expanded="false" />
+            <element signature="method#readString#0;class#UserProfile#0" expanded="false" />
+            <element signature="method#toString#0;class#UserProfile#0" expanded="false" />
+            <element signature="method#compare#0;class#UserProfile#0" expanded="false" />
+            <element signature="method#addItem#0;class#UserProfile#0" expanded="false" />
+            <element signature="method#removeItem#0;class#UserProfile#0" expanded="false" />
+            <element signature="method#findItem#0;class#UserProfile#0" expanded="false" />
+            <element signature="method#getCategory#0;class#UserProfile#0" expanded="false" />
+            <element signature="method#getCategory#1;class#UserProfile#0" expanded="false" />
+            <element signature="method#fillList#0;class#UserProfile#0" expanded="false" />
+            <element signature="method#initialize#0;class#UserProfile#0" expanded="false" />
+            <element signature="method#removeControlCharacters#0;class#UserProfile#0" expanded="false" />
+            <marker date="1488675072000" expanded="false" signature="5144:5843" ph="..." />
+            <marker date="1488675072000" expanded="false" signature="6045:6785" ph="..." />
+            <marker date="1488675072000" expanded="false" signature="7005:9717" ph="..." />
           </folding>
         </state>
       </provider>

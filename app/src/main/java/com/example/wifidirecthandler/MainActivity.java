@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 handler.searchForPhonesOnce();
 
                 //register service with profile info
-                handler.setInfoString(createProfile());
+                handler.setServiceName(createProfile());
                 handler.startRegistration();
 
                 //check for nearby services
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                handler.setInfoString(createProfile());
+                handler.setServiceName(createProfile());
                 handler.startRegistration();
             }
         });
