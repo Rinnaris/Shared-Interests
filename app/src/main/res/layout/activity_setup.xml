@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!-- Created by Alyssa Roche, March 09/2017 -->
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -11,60 +14,249 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.wifidirecthandler.Setup">
 
-    <TextView
-        android:text="Welcome to Shared Interests!"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textWelcome"
-        android:textColor="@android:color/background_light"
-        android:gravity="center_vertical|center_horizontal"
-        android:textSize="36sp"
-        android:layout_centerVertical="true"
-        android:layout_alignParentStart="true" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
 
-    <TextView
-        android:text="Your name?"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textInstructions"
-        android:gravity="center_horizontal"
-        android:layout_above="@+id/textWelcome"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="38dp"
-        android:visibility="invisible" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Name"
-        android:ems="10"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/textName"
-        android:visibility="invisible" />
+            <!-- A quick disclaimer for users -->
+            <TextView
+                android:id="@+id/disclaimerView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="14dp"
+                android:text="@string/disclaimer"
+                android:textColor="@android:color/background_light"
+                android:textSize="14sp"
+                android:textStyle="bold" />
 
-    <Button
-        android:text="START"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textWelcome"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="47dp"
-        android:id="@+id/buttonStart"
-        android:background="@android:color/holo_blue_dark"
-        android:textColor="@android:color/background_light" />
+            <!--All the elements associated with Movies and TV -->
+            <TextView
+                android:id="@+id/movieView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/disclaimerView"
+                android:layout_below="@+id/disclaimerView"
+                android:layout_marginTop="24dp"
+                android:text="@string/movie"
+                android:textColor="@android:color/black"
+                android:textColorLink="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
-    <TextView
-        android:text="Skip"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/textName"
-        android:layout_marginBottom="17dp"
-        android:id="@+id/textSkip"
-        android:textStyle="normal|bold|italic"
-        android:textSize="18sp"
-        android:visibility="invisible" />
+            <TextView
+                android:id="@+id/movieList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/hobbyView"
+                android:layout_below="@+id/movieView"
+                android:layout_marginTop="21dp"
+                android:text="TextView" />
+
+            <EditText
+                android:id="@+id/newMovie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/movieView"
+                android:layout_below="@+id/movieList"
+                android:layout_marginTop="17dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name" />
+
+            <Button
+                android:id="@+id/movieAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/newMovie"
+                android:layout_marginEnd="11dp"
+                android:text="Add" />
+
+            <!-- All the elements associated with Music -->
+            <TextView
+                android:id="@+id/musicView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/music"
+                android:textColor="@android:color/black"
+                android:textColorLink="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginTop="24dp"
+                android:layout_centerVertical="true"
+                android:layout_alignStart="@+id/movieView" />
+
+            <TextView
+                android:id="@+id/musicList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/hobbyView"
+                android:layout_below="@+id/musicView"
+                android:layout_marginTop="21dp"
+                android:text="TextView" />
+
+            <EditText
+                android:id="@+id/newMusic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/musicView"
+                android:layout_below="@+id/musicList"
+                android:layout_marginTop="17dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name" />
+
+            <Button
+                android:id="@+id/musicAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/newMusic"
+                android:layout_marginEnd="11dp"
+                android:text="Add" />
+
+            <!-- All the elements associated with Books-->
+            <TextView
+                android:id="@+id/bookView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/book"
+                android:textColor="@android:color/black"
+                android:textColorLink="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginTop="24dp"
+                android:layout_above="@+id/SportView"
+                android:layout_alignStart="@+id/musicView"
+                android:layout_marginBottom="31dp" />
+
+            <TextView
+                android:id="@+id/bookList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/hobbyView"
+                android:layout_below="@+id/bookView"
+                android:layout_marginTop="21dp"
+                android:text="TextView" />
+
+            <EditText
+                android:id="@+id/newBook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/bookView"
+                android:layout_below="@+id/bookList"
+                android:layout_marginTop="17dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name" />
+
+            <Button
+                android:id="@+id/bookAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/newBook"
+                android:layout_marginEnd="11dp"
+                android:text="Add" />
+
+
+            <!-- All the elements associated with Sports -->
+            <TextView
+                android:id="@+id/SportView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sport"
+                android:textColor="@android:color/black"
+                android:textColorLink="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginTop="24dp"
+                android:layout_above="@+id/hobbyView"
+                android:layout_alignStart="@+id/bookView"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/sportList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/hobbyView"
+                android:layout_below="@+id/SportView"
+                android:layout_marginTop="21dp"
+                android:text="TextView" />
+
+            <EditText
+                android:id="@+id/newSport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/SportView"
+                android:layout_below="@+id/sportList"
+                android:layout_marginTop="17dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name" />
+
+            <Button
+                android:id="@+id/sportAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/newSport"
+                android:layout_marginEnd="11dp"
+                android:text="Add" />
+
+
+            <!-- All the elements associated with Hobbies -->
+            <TextView
+                android:id="@+id/hobbyView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hobby"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginTop="24dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/SportView" />
+
+            <TextView
+                android:id="@+id/hobbyList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/hobbyView"
+                android:layout_below="@+id/hobbyView"
+                android:layout_marginTop="21dp"
+                android:text="TextView" />
+
+            <EditText
+                android:id="@+id/newHobby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/hobbyView"
+                android:layout_below="@+id/hobbyList"
+                android:layout_marginTop="17dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name" />
+
+            <Button
+                android:id="@+id/hobbyAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/newHobby"
+                android:layout_marginEnd="11dp"
+                android:text="Add" />
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </RelativeLayout>
