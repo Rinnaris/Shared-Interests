@@ -10,14 +10,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.wifidirecthandler.MainActivity">
 
-    <Button
-        android:text="Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
-
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -25,18 +17,38 @@
         android:text="Interests"
         android:ems="10"
         android:id="@+id/profileText"
-        android:layout_marginTop="14dp"
-        android:layout_below="@+id/button"
+        android:layout_marginTop="19dp"
+        android:singleLine="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        android:singleLine="true" />
+        android:layout_marginStart="10dp" />
 
-    <TextView
+    <Button
+        android:text="Send"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:id="@+id/button"
+        android:layout_marginStart="17dp"
+        android:layout_alignBaseline="@+id/profileText"
+        android:layout_alignBottom="@+id/profileText"
+        android:layout_toEndOf="@+id/profileText" />
+
+    <TextView
+        android:text="Message goes here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
         android:id="@+id/text"
-        android:layout_marginTop="31dp"
-        android:layout_below="@+id/profileText"
-        android:layout_toStartOf="@+id/button2" />
+        android:layout_below="@+id/button"
+        android:layout_alignStart="@+id/profileText" />
+
+    <Button
+        android:text="Receive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_alignBaseline="@+id/text"
+        android:layout_alignBottom="@+id/text"
+        android:layout_alignStart="@+id/button" />
 
 </RelativeLayout>
