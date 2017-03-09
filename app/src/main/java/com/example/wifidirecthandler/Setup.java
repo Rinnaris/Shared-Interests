@@ -26,22 +26,25 @@ public class Setup extends AppCompatActivity {
         View view = this.getWindow().getDecorView();
         view.setBackgroundColor(Color.CYAN);
 
-        instructionsText = (TextView) findViewById(R.id.textInstructions);
-        welcomeText = (TextView) findViewById(R.id.textWelcome);
-        skipText = (TextView) findViewById(R.id.textSkip);
-        nameField = (EditText) findViewById(R.id.textName);
+        //instructionsText = (TextView) findViewById(R.id.textInstructions);
+        //welcomeText = (TextView) findViewById(R.id.textWelcome);
+       // skipText = (TextView) findViewById(R.id.textSkip);
+        //nameField = (EditText) findViewById(R.id.textName);
 
-        startButton = (Button) findViewById(R.id.buttonStart);
-        startButton.setOnClickListener(new View.OnClickListener() {
+        //startButton = (Button) findViewById(R.id.buttonStart);
+        //startButton.setOnClickListener(new View.OnClickListener() {
 
-            @Override
-            public void onClick(View v) {
-                welcomeText.setVisibility(View.INVISIBLE);
-                nameField.setVisibility(View.VISIBLE);
-                instructionsText.setVisibility(View.VISIBLE);
+           // @Override
+           // public void onClick(View v) {
+              //  welcomeText.setVisibility(View.INVISIBLE);
+               // nameField.setVisibility(View.VISIBLE);
+               // instructionsText.setVisibility(View.VISIBLE);
+               // skipText.setVisibility(View.VISIBLE);
 
-                startButton.setText("OK");
-            }
-        });
+               // startButton.setText("OK");
+           // }
+        //});
     }
+
+
 }
