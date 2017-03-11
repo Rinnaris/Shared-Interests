@@ -12,6 +12,7 @@
     </item>
     <item
         is-multidex="true"
+<<<<<<< HEAD
         jar="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
@@ -31,10 +32,32 @@
     <item
         is-multidex="true"
         jar="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+=======
+        jar="C:\Users\Qwan\.android\build-cache\31e62b7fd57ca14128be1da56206381ff25160ee\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ef38061584b80b6eef5b7d4a40d7ed5fa1832d0b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Qwan\.android\build-cache\07ef2f0a2ddbc250074b5274483d531a7c769431\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_456b5df88195ca440482e4fbea80543c51a58da1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Qwan\.android\build-cache\75f1ec213e5c408e68f52eb36821dc7cebee8d76\output\jars\classes.jar"
+>>>>>>> master
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+<<<<<<< HEAD
         <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.1_853935cd889f40153901df4cbe7d308e37226a19\classes.dex" />
     </item>
     <item
@@ -94,10 +117,72 @@
     <item
         is-multidex="true"
         jar="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+=======
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5ea35dc63da3eb03f97bdaad5a811b7905720134\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="816a7f6918006d89cbb14a7ebf2e88d050c5c506">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_78cdc43feca44d74a535c70c380d21512afdbd53\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_0ed693ce84aa99d71fde76764d2f4d310c7218da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Qwan\.android\build-cache\17fd7214f6b91da803b6c8247021b24d2ac2e98a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e5d128abefe71014f392366d05e9e509df5b4323\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Qwan\.android\build-cache\ca1341e614abde6e1a0396a80ec4420e9617f1b9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_42fee54383f220492c46eba3fcb79e2dbe7dfde9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Qwan\.android\build-cache\7e2f70cdb26da4219f02c463b9eb2f4b0ac9a6f3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_724eb96f83f6703df5798c2f8bd55ca296e1a95d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Qwan\.android\build-cache\9cf5eda9148ac5f9d2b21b0b32de91e4d39771a2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0f9ec58fbea258e76b3b30cbce9ddbc0a344d9bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Qwan\.android\build-cache\86efdea805085cce99db35a8e986cdbaec204937\output\jars\classes.jar"
+>>>>>>> master
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+<<<<<<< HEAD
         <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.1_d323d2e79fb772b10ef1c9a591c27ea57a6aa7b4\classes.dex" />
     </item>
     <item
@@ -108,6 +193,18 @@
         revision="25.0.2"
         sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
         <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.1_2fee8698dce693d01c5ea914cb989af31e352b79\classes.dex" />
+=======
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0a0e01ef4b7f9646f0b7f7ec183c807d504f3ee7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Qwan\.android\build-cache\275b9b563d13bdb1eb307b426e9daedf5b7e3795\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_30bcb6681bbd5fc5b43af197636bb6fca648d175\classes.dex" />
+>>>>>>> master
     </item>
 
 </items>
