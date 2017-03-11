@@ -1,9 +1,3 @@
 <resources>
     <string name="app_name">WifiDirectHandler</string>
-    <string name="movie">Movies/TV</string>
-    <string name="book">Books</string>
-    <string name="sport">Sports</string>
-    <string name="music">Music</string>
-    <string name="hobby">Hobbies</string>
-    <string name="disclaimer">Disclaimer: Fill out only as much information as you are comfortable sharing with others</string>
 </resources>
