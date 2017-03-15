@@ -3,39 +3,30 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Qwan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jar="C:\Users\Qwan\.android\build-cache\cd0f353e0f221e16050b1754eee9a8eb70d3e1d2\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
-        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.1_121cb8613638975591b120728b1bf1d71457a869\classes.dex" />
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_73d4512a731f831dc4affce1a73a7df4a7b2d251\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Qwan\.android\build-cache\31e62b7fd57ca14128be1da56206381ff25160ee\output\jars\classes.jar"
+        jar="C:\Users\Qwan\.android\build-cache\679606e3c366ff36266cbb1adc1029376bd587c5\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ef38061584b80b6eef5b7d4a40d7ed5fa1832d0b\classes.dex" />
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ba71972fb7e6361f179d415593f8f621422cfffd\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Qwan\.android\build-cache\07ef2f0a2ddbc250074b5274483d531a7c769431\output\jars\classes.jar"
+        jar="C:\Users\Qwan\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
-        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_456b5df88195ca440482e4fbea80543c51a58da1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Qwan\.android\build-cache\75f1ec213e5c408e68f52eb36821dc7cebee8d76\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
-        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5ea35dc63da3eb03f97bdaad5a811b7905720134\classes.dex" />
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_da01c85fc2d5c669550787d2c20c76349c62ff62\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -43,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="816a7f6918006d89cbb14a7ebf2e88d050c5c506">
+        sha1="f3d7d02e0b166ab71bb85dfaa96d04a92f05f038">
         <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_78cdc43feca44d74a535c70c380d21512afdbd53\classes.dex" />
     </item>
     <item
@@ -57,57 +48,111 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Qwan\.android\build-cache\17fd7214f6b91da803b6c8247021b24d2ac2e98a\output\jars\classes.jar"
+        jar="C:\Users\Qwan\.android\build-cache\ab0390545de9966d4a71152d1d03792e683cb675\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
-        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e5d128abefe71014f392366d05e9e509df5b4323\classes.dex" />
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_53b4bf44bac36bb958419af4af1de0595c8e0a8e\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Qwan\.android\build-cache\ca1341e614abde6e1a0396a80ec4420e9617f1b9\output\jars\classes.jar"
+        jar="C:\Users\Qwan\.android\build-cache\29964727dc26073ffea18744e356ed5e9c522075\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
-        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_42fee54383f220492c46eba3fcb79e2dbe7dfde9\classes.dex" />
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c7160f292bbcf915d1c3f75f75ae32568966c398\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Qwan\.android\build-cache\7e2f70cdb26da4219f02c463b9eb2f4b0ac9a6f3\output\jars\classes.jar"
+        jar="C:\Users\Qwan\.android\build-cache\0490a702b94d5ef0c6ba495aa17bbe0389da5ed0\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_724eb96f83f6703df5798c2f8bd55ca296e1a95d\classes.dex" />
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_693d56c6907c1a33ef60090f4da53c3d9fbf4994\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Qwan\.android\build-cache\9cf5eda9148ac5f9d2b21b0b32de91e4d39771a2\output\jars\classes.jar"
+        jar="C:\Users\Qwan\.android\build-cache\5ee7ff9a104d318f665565571a7790a2d03ddbd5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0265495582bfacb472cd3b254437d6a6dd4c9480\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Qwan\.android\build-cache\46fd7bc1295e0b502c70dcc6e69f55860e05c650\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_023c814813785ba6e6064da5129bfee841bc92da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Qwan\.android\build-cache\18af067a9c560b5f92a18585f87ba1bdbfe91389\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b5f169479bc4dea27ad39f4a4dadd2f752920ee1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Qwan\.android\build-cache\f4e5fa213b704063fcdcac2f68b2d42fb9127d44\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f1b23499ba0851d4f9e2aead3297b1a76a4967d1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Qwan\.android\build-cache\c24241b29a5236a3fe6fd6075f4cd744c96d38f0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f40525b1982fbc1beaa42048c110e18e521e62d1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Qwan\.android\build-cache\2ecd492a7678804bca2dcab7afa1b9948fc61be8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4c7076bde5f1231f7a65f3669a80e19f33987a54\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Qwan\.android\build-cache\00500134a94a8cb574c6c9291ee8e0136987c78c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cf415ab136d4598011ec0d61865539a977308870\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Qwan\.android\build-cache\39a46fc80ef3f6f0833ff78abc5017d7664c07ff\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0f9ec58fbea258e76b3b30cbce9ddbc0a344d9bc\classes.dex" />
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8f1bc9869702b73c8429c0b3167a619075805f44\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Qwan\.android\build-cache\86efdea805085cce99db35a8e986cdbaec204937\output\jars\classes.jar"
+        jar="C:\Users\Qwan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
-        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0a0e01ef4b7f9646f0b7f7ec183c807d504f3ee7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Qwan\.android\build-cache\275b9b563d13bdb1eb307b426e9daedf5b7e3795\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_30bcb6681bbd5fc5b43af197636bb6fca648d175\classes.dex" />
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="C:\Users\Qwan\Documents\GitHub\Shared-Interests\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.2.0_8e15d9d2cb5e6ecedba6893d840272e4d86ca70f\classes.dex" />
     </item>
 
 </items>

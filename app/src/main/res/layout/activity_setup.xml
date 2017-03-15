@@ -68,8 +68,7 @@
                 android:layout_below="@+id/movieList"
                 android:layout_marginTop="17dp"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Name" />
+                android:inputType="textPersonName" />
 
             <Button
                 android:id="@+id/movieAdd"
@@ -111,8 +110,7 @@
                 android:layout_below="@+id/musicList"
                 android:layout_marginTop="17dp"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Name" />
+                android:inputType="textPersonName" />
 
             <Button
                 android:id="@+id/musicAdd"
@@ -124,6 +122,7 @@
                 android:text="Add" />
 
             <!-- All the elements associated with Books-->
+
             <TextView
                 android:id="@+id/bookView"
                 android:layout_width="wrap_content"
@@ -155,8 +154,7 @@
                 android:layout_below="@+id/bookList"
                 android:layout_marginTop="17dp"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Name" />
+                android:inputType="textPersonName" />
 
             <Button
                 android:id="@+id/bookAdd"
@@ -200,8 +198,7 @@
                 android:layout_below="@+id/sportList"
                 android:layout_marginTop="17dp"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Name" />
+                android:inputType="textPersonName" />
 
             <Button
                 android:id="@+id/sportAdd"
@@ -243,8 +240,7 @@
                 android:layout_below="@+id/hobbyList"
                 android:layout_marginTop="17dp"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Name" />
+                android:inputType="textPersonName" />
 
             <Button
                 android:id="@+id/hobbyAdd"
@@ -254,6 +250,25 @@
                 android:layout_alignTop="@+id/newHobby"
                 android:layout_marginEnd="11dp"
                 android:text="Add" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:id="@+id/Finish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="false"
+                android:layout_marginEnd="11dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="15dp"
+                android:text="Finish" />
 
         </LinearLayout>
 
