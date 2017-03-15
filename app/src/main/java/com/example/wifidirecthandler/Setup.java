@@ -12,7 +12,7 @@ import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 
-//When there is no current profile, launch set-up, to begin the setting up of the profile?
+//Launched when there is no current profile.
 public class Setup extends AppCompatActivity {
 
     ArrayList<String> movie = new ArrayList<String>();
@@ -55,6 +55,7 @@ public class Setup extends AppCompatActivity {
         name = bundle.getString("name");
         phone = bundle.getString("phone");
         email = bundle.getString("email");
+        System.out.println("Name: " + name.toString());
 
         movieButton = (Button) findViewById(R.id.movieAdd);
         musicButton = (Button) findViewById(R.id.musicAdd);
@@ -82,10 +83,11 @@ public class Setup extends AppCompatActivity {
            public void onClick(View v) {
                 if(!movieField.getText().equals(""))
                     movie.add(movieField.getText() + "");
+                movieField.setText("");
 
                 for(int i = 0; i < movie.size(); i++) {
                     String interest = movie.get(i);
-                    movieView.setText(movieView  + " " + interest + ", ");
+                    movieView.setText(movieView.getText()  + " " + interest + ", ");
                 }
             }
         });
@@ -96,10 +98,11 @@ public class Setup extends AppCompatActivity {
             public void onClick(View v) {
                 if(!musicField.getText().equals(""))
                     music.add(musicField.getText() + "");
+                musicField.setText("");
 
                 for(int i = 0; i < music.size(); i++) {
                     String interest = music.get(i);
-                    musicView.setText(musicView  + " " + interest + ", ");
+                    musicView.setText(musicView.getText()  + " " + interest + ", ");
                 }
             }
         });
@@ -110,10 +113,11 @@ public class Setup extends AppCompatActivity {
             public void onClick(View v) {
                 if(!bookField.getText().equals(""))
                     book.add(bookField.getText() + "");
+                bookField.setText("");
 
                 for(int i = 0; i < book.size(); i++) {
                     String interest = book.get(i);
-                    bookView.setText(bookView + " " + interest + ", ");
+                    bookView.setText(bookView.getText()  + " " + interest + ", ");
                 }
             }
         });
@@ -124,10 +128,11 @@ public class Setup extends AppCompatActivity {
             public void onClick(View v) {
                 if(!sportField.getText().equals(""))
                     sport.add(sportField.getText() + "");
+                sportField.setText("");
 
                 for(int i = 0; i < sport.size(); i++) {
                     String interest = sport.get(i);
-                    sportView.setText(sportView + " " + interest + ", ");
+                    sportView.setText(sportView.getText() + " " + interest + ", ");
                 }
             }
         });
@@ -138,10 +143,11 @@ public class Setup extends AppCompatActivity {
             public void onClick(View v) {
                 if(!hobbyField.getText().equals(""))
                     hobby.add(hobbyField.getText() + "");
+                hobbyField.setText("");
 
                 for(int i = 0; i < hobby.size(); i++) {
                     String interest = hobby.get(i);
-                    hobbyView.setText(hobbyView + " " + interest + ", ");
+                    hobbyView.setText(hobbyView.getText() + " " + interest + ", ");
                 }
             }
         });
@@ -151,6 +157,7 @@ public class Setup extends AppCompatActivity {
             @Override
             public void onClick(View v) {
             Profile profile = new Profile(name, phone, email, movie, music, sport, book, hobby);
+                System.out.println("A profile has been created.");
             }
         });
     }

@@ -35,10 +35,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-       <!-- <activity
-            android:name=".StartUp"
-            android:label="@string/title_activity_start_up"
-            android:theme="@style/AppTheme.NoActionBar" /> -->
+       <activity android:name=".Setup" ></activity>
     </application>
 
 </manifest>

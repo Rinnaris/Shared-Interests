@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+//Launches at the start of the app when no profile exists
+
 public class StartUp extends AppCompatActivity {
 
     String name = "";

@@ -91,9 +91,9 @@
         android:id="@+id/nextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Next"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="53dp"
-        android:text="Next" />
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

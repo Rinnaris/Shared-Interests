@@ -68,8 +68,7 @@
                 android:layout_below="@+id/movieList"
                 android:layout_marginTop="17dp"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Name" />
+                android:inputType="textPersonName" />
 
             <Button
                 android:id="@+id/movieAdd"
@@ -111,8 +110,7 @@
                 android:layout_below="@+id/musicList"
                 android:layout_marginTop="17dp"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Name" />
+                android:inputType="textPersonName" />
 
             <Button
                 android:id="@+id/musicAdd"
@@ -156,8 +154,7 @@
                 android:layout_below="@+id/bookList"
                 android:layout_marginTop="17dp"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Name" />
+                android:inputType="textPersonName" />
 
             <Button
                 android:id="@+id/bookAdd"
@@ -201,8 +198,7 @@
                 android:layout_below="@+id/sportList"
                 android:layout_marginTop="17dp"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Name" />
+                android:inputType="textPersonName" />
 
             <Button
                 android:id="@+id/sportAdd"
@@ -244,8 +240,7 @@
                 android:layout_below="@+id/hobbyList"
                 android:layout_marginTop="17dp"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Name" />
+                android:inputType="textPersonName" />
 
             <Button
                 android:id="@+id/hobbyAdd"
