@@ -1,5 +1,6 @@
 package com.example.wifidirecthandler;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -85,10 +86,10 @@ public class Setup extends AppCompatActivity {
                     movie.add(movieField.getText() + "");
                 movieField.setText("");
 
-                for(int i = 0; i < movie.size(); i++) {
-                    String interest = movie.get(i);
-                    movieView.setText(movieView.getText()  + " " + interest + ", ");
-                }
+                int i = (movie.size() - 1);
+                String interest = movie.get(i);
+
+                movieView.setText(movieView.getText() + " " + interest + ", ");
             }
         });
 
@@ -100,10 +101,10 @@ public class Setup extends AppCompatActivity {
                     music.add(musicField.getText() + "");
                 musicField.setText("");
 
-                for(int i = 0; i < music.size(); i++) {
-                    String interest = music.get(i);
-                    musicView.setText(musicView.getText()  + " " + interest + ", ");
-                }
+                int i = (music.size() - 1);
+                String interest = music.get(i);
+
+                musicView.setText(musicView.getText() + " " + interest + ", ");
             }
         });
 
@@ -115,10 +116,10 @@ public class Setup extends AppCompatActivity {
                     book.add(bookField.getText() + "");
                 bookField.setText("");
 
-                for(int i = 0; i < book.size(); i++) {
-                    String interest = book.get(i);
-                    bookView.setText(bookView.getText()  + " " + interest + ", ");
-                }
+                int i = (book.size() - 1);
+                String interest = book.get(i);
+
+                bookView.setText(bookView.getText() + " " + interest + ", ");
             }
         });
 
@@ -130,10 +131,10 @@ public class Setup extends AppCompatActivity {
                     sport.add(sportField.getText() + "");
                 sportField.setText("");
 
-                for(int i = 0; i < sport.size(); i++) {
-                    String interest = sport.get(i);
-                    sportView.setText(sportView.getText() + " " + interest + ", ");
-                }
+                int i = (sport.size() - 1);
+                String interest = sport.get(i);
+
+                sportView.setText(sportView.getText() + " " + interest + ", ");
             }
         });
 
@@ -145,10 +146,10 @@ public class Setup extends AppCompatActivity {
                     hobby.add(hobbyField.getText() + "");
                 hobbyField.setText("");
 
-                for(int i = 0; i < hobby.size(); i++) {
-                    String interest = hobby.get(i);
-                    hobbyView.setText(hobbyView.getText() + " " + interest + ", ");
-                }
+                int i = (hobby.size() - 1);
+                String interest = hobby.get(i);
+
+                hobbyView.setText(hobbyView.getText() + " " + interest + ", ");
             }
         });
 
@@ -156,8 +157,21 @@ public class Setup extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-            Profile profile = new Profile(name, phone, email, movie, music, sport, book, hobby);
-                System.out.println("A profile has been created.");
+
+                Intent intent = new Intent(Setup.this, DisplayProfile.class);
+                Bundle bundle = new Bundle();
+                bundle.putString("name", name);
+                bundle.putString("phone", phone);
+                bundle.putString("email", email);
+                bundle.putStringArrayList("movie", movie);
+                bundle.putStringArrayList("music", music);
+                bundle.putStringArrayList("sport", sport);
+                bundle.putStringArrayList("book", book);
+                bundle.putStringArrayList("hobby", hobby);
+
+                intent.putExtras(bundle);
+
+                startActivity(intent);
             }
         });
     }

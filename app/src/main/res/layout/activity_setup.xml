@@ -57,8 +57,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignEnd="@+id/hobbyView"
                 android:layout_below="@+id/movieView"
-                android:layout_marginTop="21dp"
-                android:text="TextView" />
+                android:layout_marginTop="21dp" />
 
             <EditText
                 android:id="@+id/newMovie"
@@ -99,8 +98,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignEnd="@+id/hobbyView"
                 android:layout_below="@+id/musicView"
-                android:layout_marginTop="21dp"
-                android:text="TextView" />
+                android:layout_marginTop="21dp" />
 
             <EditText
                 android:id="@+id/newMusic"
@@ -143,8 +141,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignEnd="@+id/hobbyView"
                 android:layout_below="@+id/bookView"
-                android:layout_marginTop="21dp"
-                android:text="TextView" />
+                android:layout_marginTop="21dp" />
 
             <EditText
                 android:id="@+id/newBook"
@@ -187,8 +184,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignEnd="@+id/hobbyView"
                 android:layout_below="@+id/SportView"
-                android:layout_marginTop="21dp"
-                android:text="TextView" />
+                android:layout_marginTop="21dp" />
 
             <EditText
                 android:id="@+id/newSport"
@@ -229,8 +225,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignEnd="@+id/hobbyView"
                 android:layout_below="@+id/hobbyView"
-                android:layout_marginTop="21dp"
-                android:text="TextView" />
+                android:layout_marginTop="21dp" />
 
             <EditText
                 android:id="@+id/newHobby"
