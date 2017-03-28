@@ -16,7 +16,10 @@
 
     <ScrollView
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="21dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -135,14 +138,6 @@
                 android:layout_alignStart="@+id/musicView"
                 android:layout_marginBottom="31dp" />
 
-            <TextView
-                android:id="@+id/bookList"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignEnd="@+id/hobbyView"
-                android:layout_below="@+id/bookView"
-                android:layout_marginTop="21dp" />
-
             <EditText
                 android:id="@+id/newBook"
                 android:layout_width="wrap_content"
@@ -162,6 +157,14 @@
                 android:layout_marginEnd="11dp"
                 android:text="Add" />
 
+            <TextView
+                android:id="@+id/bookList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/hobbyView"
+                android:layout_below="@+id/bookView"
+                android:layout_marginTop="21dp" />
+
 
             <!-- All the elements associated with Sports -->
             <TextView
@@ -177,14 +180,6 @@
                 android:layout_above="@+id/hobbyView"
                 android:layout_alignStart="@+id/bookView"
                 android:layout_marginBottom="16dp" />
-
-            <TextView
-                android:id="@+id/sportList"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignEnd="@+id/hobbyView"
-                android:layout_below="@+id/SportView"
-                android:layout_marginTop="21dp" />
 
             <EditText
                 android:id="@+id/newSport"
@@ -205,6 +200,14 @@
                 android:layout_marginEnd="11dp"
                 android:text="Add" />
 
+            <TextView
+                android:id="@+id/sportList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/hobbyView"
+                android:layout_below="@+id/SportView"
+                android:layout_marginTop="21dp" />
+
 
             <!-- All the elements associated with Hobbies -->
             <TextView
@@ -218,14 +221,6 @@
                 android:layout_marginTop="24dp"
                 android:layout_alignParentBottom="true"
                 android:layout_alignStart="@+id/SportView" />
-
-            <TextView
-                android:id="@+id/hobbyList"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignEnd="@+id/hobbyView"
-                android:layout_below="@+id/hobbyView"
-                android:layout_marginTop="21dp" />
 
             <EditText
                 android:id="@+id/newHobby"
@@ -245,6 +240,14 @@
                 android:layout_alignTop="@+id/newHobby"
                 android:layout_marginEnd="11dp"
                 android:text="Add" />
+
+            <TextView
+                android:id="@+id/hobbyList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/hobbyView"
+                android:layout_below="@+id/hobbyView"
+                android:layout_marginTop="21dp" />
 
             <View
                 android:layout_width="0dp"

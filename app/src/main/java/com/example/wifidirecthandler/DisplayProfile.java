@@ -1,7 +1,12 @@
 package com.example.wifidirecthandler;
 
+import android.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -26,6 +31,8 @@ public class DisplayProfile extends AppCompatActivity {
     TextView bookView;
     TextView sportView;
     TextView hobbyView;
+
+    Button editBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,14 +62,33 @@ public class DisplayProfile extends AppCompatActivity {
         hobbyView = (TextView) findViewById(R.id.hobbyText);
 
         MakeProfile(profile);
+
+        editBtn = (Button) findViewById(R.id.editButton);
+        editBtn.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
     }
 
-    void MakeProfile(Profile profile){
+    void MakeProfile(Profile profile) {
         nameView.setText(profile.getName());
         phoneView.setText(profile.getPhone());
         emailView.setText(profile.getEmail());
-        for(int i = 0; i < movie.size(); i++)
+        for (int i = 0; i < movie.size(); i++)
             movieView.setText(profile.getMovie().get(i));
-
+        for (int i = 0; i < music.size(); i++)
+            musicView.setText(profile.getMusic().get(i));
+        for (int i = 0; i < book.size(); i++)
+            bookView.setText(profile.getBook().get(i));
+        for (int i = 0; i < sport.size(); i++)
+            sportView.setText(profile.getSport().get(i));
+        for (int i = 0; i < hobby.size(); i++)
+            hobbyView.setText(profile.getHobby().get(i));
     }
 }
+
+
+
