@@ -1,12 +1,15 @@
 package com.example.wifidirecthandler;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 import java.util.ArrayList;
 
 /**
  * Created Alyssa on 2017-03-15.
  */
 
-public class Profile {
+public class Profile implements Parcelable {
 
     String name;
     String phone;
@@ -26,6 +29,45 @@ public class Profile {
         sport = sportIn;
         book = bookIn;
         hobby = hobbyIn;
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel parcel, int i) {
+        parcel.writeString(getName());
+        parcel.writeString(getPhone());
+        parcel.writeString(getEmail());
+        parcel.writeStringList(getMovie());
+        parcel.writeStringList(getMusic());
+        parcel.writeStringList(getBook());
+        parcel.writeStringList(getSport());
+        parcel.writeStringList(getHobby());
+    }
+
+    public static final Parcelable.Creator<Profile> CREATOR = new Parcelable.Creator<Profile>() {
+        public Profile createFromParcel(Parcel in) {
+            return new Profile(in);
+        }
+
+        public Profile[] newArray(int size) {
+            return new Profile[size];
+        }
+    };
+
+    // example constructor that takes a Parcel and gives you an object populated with it's values
+    private Profile (Parcel in) {
+        name = in.readString();
+        phone = in.readString();
+        email = in.readString();
+        movie = in.createStringArrayList();
+        music = in.createStringArrayList();
+        book = in.createStringArrayList();
+        sport = in.createStringArrayList();
+        hobby = in.createStringArrayList();
     }
 
     public String getName(){
