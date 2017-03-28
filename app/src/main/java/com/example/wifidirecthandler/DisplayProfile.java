@@ -1,6 +1,7 @@
 package com.example.wifidirecthandler;
 
 import android.app.Fragment;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,6 +13,8 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 public class DisplayProfile extends AppCompatActivity {
+
+    Profile profile;
 
     String name;
     String phone;
@@ -49,7 +52,7 @@ public class DisplayProfile extends AppCompatActivity {
         book = bundle.getStringArrayList("book");
         hobby = bundle.getStringArrayList("hobby");
 
-        Profile profile = new Profile(name, phone, email, movie, music, sport, book, hobby);
+        profile = new Profile(name, phone, email, movie, music, sport, book, hobby);
         System.out.println("A profile has been created.");
 
         nameView = (TextView) findViewById(R.id.nameText);
@@ -68,7 +71,9 @@ public class DisplayProfile extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-
+                Intent i = new Intent(DisplayProfile.this, Edit.class);
+                i.putExtra("profile", profile); // using the (String name, Parcelable value) overload!
+                startActivity(i);
             }
         });
     }
