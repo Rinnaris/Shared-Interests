@@ -18,6 +18,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity android:name=".MainActivity">
              <intent-filter>
                  <action android:name="android.intent.action.MAIN" />
@@ -31,7 +32,31 @@
 
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter> -->
+=======
+
+        <!--
+       <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+           </intent-filter>
+       </activity>
+        -->
+        <activity android:name=".StartUp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+>>>>>>> master
         </activity>
+        <activity android:name=".Setup" />
+        <activity android:name=".DisplayProfile" />
+        <activity
+            android:name=".Edit"
+            android:label="@string/title_activity_edit"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
