@@ -5,8 +5,13 @@
     </ANNOTATIONS>
     <CLASSES>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/res" />
+=======
+      <root url="file://$USER_HOME$/.android/build-cache/7f60861b48100529b16c4c520e2a4ae8858ac4e7/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/7f60861b48100529b16c4c520e2a4ae8858ac4e7/output/jars/classes.jar!/" />
+>>>>>>> master
 =======
       <root url="file://$USER_HOME$/.android/build-cache/7f60861b48100529b16c4c520e2a4ae8858ac4e7/output/res" />
       <root url="jar://$USER_HOME$/.android/build-cache/7f60861b48100529b16c4c520e2a4ae8858ac4e7/output/jars/classes.jar!/" />

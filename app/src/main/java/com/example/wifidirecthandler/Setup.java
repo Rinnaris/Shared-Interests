@@ -54,6 +54,9 @@ public class Setup extends AppCompatActivity {
     String name;
     String phone;
     String email;
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 
     @Override
@@ -63,6 +66,7 @@ public class Setup extends AppCompatActivity {
         View view = this.getWindow().getDecorView();
         view.setBackgroundColor(Color.CYAN);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         instructionsText = (TextView) findViewById(R.id.textInstructions);
         welcomeText = (TextView) findViewById(R.id.textWelcome);
@@ -80,6 +84,8 @@ public class Setup extends AppCompatActivity {
 
                 startButton.setText("OK");
 =======
+=======
+>>>>>>> master
         Bundle bundle = getIntent().getExtras();
         name = bundle.getString("name");
         phone = bundle.getString("phone");
@@ -113,10 +119,17 @@ public class Setup extends AppCompatActivity {
                 if(!movieField.getText().equals(""))
                     movie.add(movieField.getText() + "");
                 movieField.setText("");
+<<<<<<< HEAD
 
                 int i = (movie.size() - 1);
                 String interest = movie.get(i);
 
+=======
+
+                int i = (movie.size() - 1);
+                String interest = movie.get(i);
+
+>>>>>>> master
                 movieView.setText(movieView.getText() + " " + interest + ", ");
             }
         });
@@ -128,10 +141,17 @@ public class Setup extends AppCompatActivity {
                 if(!musicField.getText().equals(""))
                     music.add(musicField.getText() + "");
                 musicField.setText("");
+<<<<<<< HEAD
 
                 int i = (music.size() - 1);
                 String interest = music.get(i);
 
+=======
+
+                int i = (music.size() - 1);
+                String interest = music.get(i);
+
+>>>>>>> master
                 musicView.setText(musicView.getText() + " " + interest + ", ");
             }
         });
@@ -146,8 +166,65 @@ public class Setup extends AppCompatActivity {
 
                 int i = (book.size() - 1);
                 String interest = book.get(i);
+<<<<<<< HEAD
 
                 bookView.setText(bookView.getText() + " " + interest + ", ");
+=======
+
+                bookView.setText(bookView.getText() + " " + interest + ", ");
+            }
+        });
+
+        sportButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                if(!sportField.getText().equals(""))
+                    sport.add(sportField.getText() + "");
+                sportField.setText("");
+
+                int i = (sport.size() - 1);
+                String interest = sport.get(i);
+
+                sportView.setText(sportView.getText() + " " + interest + ", ");
+            }
+        });
+
+        hobbyButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                if(!hobbyField.getText().equals(""))
+                    hobby.add(hobbyField.getText() + "");
+                hobbyField.setText("");
+
+                int i = (hobby.size() - 1);
+                String interest = hobby.get(i);
+
+                hobbyView.setText(hobbyView.getText() + " " + interest + ", ");
+            }
+        });
+
+        finishButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(Setup.this, DisplayProfile.class);
+                Bundle bundle = new Bundle();
+                bundle.putString("name", name);
+                bundle.putString("phone", phone);
+                bundle.putString("email", email);
+                bundle.putStringArrayList("movie", movie);
+                bundle.putStringArrayList("music", music);
+                bundle.putStringArrayList("sport", sport);
+                bundle.putStringArrayList("book", book);
+                bundle.putStringArrayList("hobby", hobby);
+
+                intent.putExtras(bundle);
+
+                startActivity(intent);
+>>>>>>> master
             }
         });
 

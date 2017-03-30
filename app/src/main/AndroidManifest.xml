@@ -19,6 +19,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <activity android:name=".MainActivity">
              <intent-filter>
                  <action android:name="android.intent.action.MAIN" />
@@ -33,6 +34,8 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter> -->
 =======
+=======
+>>>>>>> master
 
         <!--
        <activity android:name=".MainActivity">
@@ -49,6 +52,9 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
         </activity>
         <activity android:name=".Setup" />
